@@ -1,0 +1,15 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-link {
+  transition: color 0.3s ease-in-out;
+  font-size: 18px; /* Adjust the font size */
+  font-weight: bold; /* Adjust the font weight */
+  color: white;
+}
+
+.nav-link:hover {
+  color: black; /* Change to your desired hover color */
+}
